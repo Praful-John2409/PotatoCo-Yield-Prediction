@@ -10,8 +10,6 @@ This repository contains the **Colab Notebook** and datasets for our **Hackathon
 
 ---
 
-Based on the provided repository structure, here’s how you can better organize it and update the README accordingly.
-
 ### Repository Structure:
 
 ```
