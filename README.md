@@ -12,10 +12,9 @@ This repository contains the **Colab Notebook** and datasets for our **Hackathon
 
 Based on the provided repository structure, here’s how you can better organize it and update the README accordingly.
 
-### Updated Repository Structure:
+### Repository Structure:
 
 ```
-.
 ├── data/                  # Folder containing all combined datasets
 │   ├── Emissions_FAOSTAT_data_en_12-3-2022.csv
 │   ├── FAOSTAT_data_en_11-6-2024.csv
