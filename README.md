@@ -10,14 +10,22 @@ This repository contains the **Colab Notebook** and datasets for our **Hackathon
 
 ---
 
-## Repository Structure
+Based on the provided repository structure, here’s how you can better organize it and update the README accordingly.
+
+### Updated Repository Structure:
 
 ```
 .
 ├── data/                  # Folder containing all combined datasets
-├── PotatoCo-ClimateImpact-PotatoYield-India.ipynb  # Colab notebook
-└── README.md              # Project documentation
+│   ├── Emissions_FAOSTAT_data_en_12-3-2022.csv
+│   ├── FAOSTAT_data_en_11-6-2024.csv
+│   ├── Fertilizers_FAOSTAT_data_en_12-3-2022.csv
+│   └── climate.csv
+├── PotatoCo-ClimateImpact-PotatoYield-India.ipynb             # file for Jupyter/Colab notebooks
+├── README.md              # Project documentation
 ```
+---
+
 
 ### Datasets:
 1. **Annual Emissions Statistics**: Contains yearly emissions of CO2, CH4, and N2O.
@@ -37,7 +45,7 @@ This repository contains the **Colab Notebook** and datasets for our **Hackathon
    - **Handling Missing Values**:
      - Interpolated missing values in emissions data using linear and mean methods.
    - **Feature Engineering**:
-     - Combined datasets using `merge` to form a single, cohesive DataFrame.
+     - Combined datasets using `merge` to form a single, cohesive DataFrame on 'year'.
    - **Final DataFrame**:
      - The cleaned and merged dataset was structured for time series regression.
 
